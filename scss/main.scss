@@ -1,0 +1,35 @@
+@import 'reset';
+
+@font-face {
+    font-family: 'Sora';
+    src: url(../public/fonts/static/Sora-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../public/fonts/static/Inter-Regular.ttf);
+}
+
+
+body {
+    background-color: #F3F5F8;
+
+    h2 {
+        font-family: 'Sora';
+        color: #131727;
+    }
+
+    p {
+        font-family: 'Inter';
+    }
+}
+
+main {
+    padding: 20px;
+}
+
+@media (min-width: 1512px) {
+    main {
+        padding: 0;
+    }
+}
